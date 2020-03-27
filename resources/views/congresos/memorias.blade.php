@@ -268,7 +268,7 @@
             <div aling="center">
             <h6 class="card-title" align="center">Archivos</h6>
               <div aling="justify">
-              <a href="http://hidrogeno.org.mx/wp-content/uploads/2017/07/2013.zip" download="memorias2019">
+              <a href="javascript:window.open('http://hidrogeno.org.mx/wp-content/uploads/2017/07/ISSN-2448-71202018.pdf',);void 0" download="memorias2019">
               <p style="color: black">
               <svg class="bi bi-file-earmark-arrow-down" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
               <path d="M4 1h5v1H4a1 1 0 00-1 1v10a1 1 0 001 1h8a1 1 0 001-1V6h1v7a2 2 0 01-2 2H4a2 2 0 01-2-2V3a2 2 0 012-2z"/>
@@ -279,7 +279,7 @@
               XIX Congreso Internacional de la SHM. Morelia Michoacán. 2019.</p></a>
               <!-- window.open('http://ejemplo.com/archivo.pdf', '_blank');
               https://si.ua.es/es/documentos/documentacion/pdf-s/mozilla12-pdf.pdf-->
-              <a href="javascript:window.open('http://hidrogeno.org.mx/wp-content/uploads/2017/07/ISSN-2448-71202018.pdf',);void 0">
+              <a href="http://hidrogeno.org.mx/wp-content/uploads/2017/07/2013.zip">
               <p style="color: black">
               <svg class="bi bi-file-earmark-arrow-down" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
               <path d="M4 1h5v1H4a1 1 0 00-1 1v10a1 1 0 001 1h8a1 1 0 001-1V6h1v7a2 2 0 01-2 2H4a2 2 0 01-2-2V3a2 2 0 012-2z"/>
@@ -320,7 +320,7 @@
             <div aling="center">
             <h6 class="card-title" align="center">Archivos</h6>
               <div aling="justify">
-              <a href="archivos/memorias2019.pdf" download="memorias2018">
+              <a href="javascript:window.open('http://hidrogeno.org.mx/wp-content/uploads/2017/07/ISSN-2448-71202018.pdf',);void 0" download="memorias2018">
               <p style="color: black">
               <svg class="bi bi-file-earmark-arrow-down" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
               <path d="M4 1h5v1H4a1 1 0 00-1 1v10a1 1 0 001 1h8a1 1 0 001-1V6h1v7a2 2 0 01-2 2H4a2 2 0 01-2-2V3a2 2 0 012-2z"/>
@@ -330,7 +330,7 @@
               </svg>
               XIV Congreso Internacional de la SHM. Ciudad de México. 2018.</p></a>
               
-              <a href="archivos/ISSN-2448-71202018" download="ISSN-2448-71202018">
+              <a href="javascript:window.open('http://hidrogeno.org.mx/wp-content/uploads/2017/07/ISSN-2448-71202018.pdf',);void 0" download="ISSN-2448-71202018">
               <p style="color: black">
               <svg class="bi bi-file-earmark-arrow-down" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
               <path d="M4 1h5v1H4a1 1 0 00-1 1v10a1 1 0 001 1h8a1 1 0 001-1V6h1v7a2 2 0 01-2 2H4a2 2 0 01-2-2V3a2 2 0 012-2z"/>
@@ -372,7 +372,7 @@
             <div aling="center">
             <h6 class="card-title" align="center">Archivos</h6>
               <div aling="justify">
-              <a href="archivos/memorias2017.pdf" download="memorias2017">
+              <a href="javascript:window.open('http://hidrogeno.org.mx/wp-content/uploads/2017/07/ISSN-2448-71202018.pdf',);void 0" download="memorias2017">
               <p style="color: black">
               <svg class="bi bi-file-earmark-arrow-down" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
               <path d="M4 1h5v1H4a1 1 0 00-1 1v10a1 1 0 001 1h8a1 1 0 001-1V6h1v7a2 2 0 01-2 2H4a2 2 0 01-2-2V3a2 2 0 012-2z"/>
@@ -383,7 +383,7 @@
 
               XVII Congreso Internacional de la SHM. Guanajuato, Gto. 2017.</p></a>
               
-              <a href="archivos/ISSN-2448-71202017.pdf" download="ISSN-2448-71202017">
+              <a href="javascript:window.open('http://hidrogeno.org.mx/wp-content/uploads/2017/07/ISSN-2448-71202018.pdf',);void 0" download="ISSN-2448-71202017">
               <p style="color: black">
               <svg class="bi bi-file-earmark-arrow-down" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
               <path d="M4 1h5v1H4a1 1 0 00-1 1v10a1 1 0 001 1h8a1 1 0 001-1V6h1v7a2 2 0 01-2 2H4a2 2 0 01-2-2V3a2 2 0 012-2z"/>
@@ -425,7 +425,7 @@
             <div aling="center">
             <h6 class="card-title" align="center">Archivos</h6>
               <div aling="justify">
-              <a href="archivos/ISSN-2448-71202016.pdf" download="ISSN-2448-71202016">
+              <a href="javascript:window.open('http://hidrogeno.org.mx/wp-content/uploads/2017/07/ISSN-2448-71202018.pdf',);void 0" download="ISSN-2448-71202016">
               <p style="color: black">
               <svg class="bi bi-file-earmark-arrow-down" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
               <path d="M4 1h5v1H4a1 1 0 00-1 1v10a1 1 0 001 1h8a1 1 0 001-1V6h1v7a2 2 0 01-2 2H4a2 2 0 01-2-2V3a2 2 0 012-2z"/>
@@ -435,7 +435,7 @@
               </svg>
               XVI Congreso Internacional de la SHM. Querétaro, Querétaro. 2016.</p></a>
               
-              <a href="archivos/2016.zip" download="2016">
+              <a href="http://hidrogeno.org.mx/wp-content/uploads/2017/07/2013.zip" download="2016">
               <p style="color: black">
               <svg class="bi bi-file-earmark-arrow-down" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
               <path d="M4 1h5v1H4a1 1 0 00-1 1v10a1 1 0 001 1h8a1 1 0 001-1V6h1v7a2 2 0 01-2 2H4a2 2 0 01-2-2V3a2 2 0 012-2z"/>
@@ -477,7 +477,7 @@
             <div aling="center">
             <h6 class="card-title" align="center">Archivos</h6>
               <div aling="justify">
-              <a href="archivos/ISSN-2448-71202015.pdf" download="ISSN-2448-71202015">
+              <a href="javascript:window.open('http://hidrogeno.org.mx/wp-content/uploads/2017/07/ISSN-2448-71202018.pdf',);void 0" download="ISSN-2448-71202015">
               <p style="color: black">
               <svg class="bi bi-file-earmark-arrow-down" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
               <path d="M4 1h5v1H4a1 1 0 00-1 1v10a1 1 0 001 1h8a1 1 0 001-1V6h1v7a2 2 0 01-2 2H4a2 2 0 01-2-2V3a2 2 0 012-2z"/>
@@ -487,7 +487,7 @@
               </svg>
               XV Congreso Internacional de la SMH. México, D. F. Del 22 al 25 de septiembre de 2015</p></a>
               
-              <a href="archivos/2015.zip" download="2015">
+              <a href="http://hidrogeno.org.mx/wp-content/uploads/2017/07/2013.zip" download="2015">
               <p style="color: black">
               <svg class="bi bi-file-earmark-arrow-down" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
               <path d="M4 1h5v1H4a1 1 0 00-1 1v10a1 1 0 001 1h8a1 1 0 001-1V6h1v7a2 2 0 01-2 2H4a2 2 0 01-2-2V3a2 2 0 012-2z"/>
@@ -529,7 +529,7 @@
             <div aling="center">
             <h6 class="card-title" align="center">Archivos</h6>
               <div aling="justify">
-              <a href="archivos/ISSN-2448-71202014.pdf" download="ISSN-2448-71202014">
+              <a href="javascript:window.open('http://hidrogeno.org.mx/wp-content/uploads/2017/07/ISSN-2448-71202018.pdf',);void 0" download="ISSN-2448-71202014">
               <p style="color: black">
               <svg class="bi bi-file-earmark-arrow-down" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
               <path d="M4 1h5v1H4a1 1 0 00-1 1v10a1 1 0 001 1h8a1 1 0 001-1V6h1v7a2 2 0 01-2 2H4a2 2 0 01-2-2V3a2 2 0 012-2z"/>
@@ -539,7 +539,7 @@
               </svg>
               XIV Congreso Internacional de la SMH. 2014</p></a>
               
-              <a href="archivos/2014.zip" download="2014">
+              <a href="http://hidrogeno.org.mx/wp-content/uploads/2017/07/2013.zip" download="2014">
               <p style="color: black">
               <svg class="bi bi-file-earmark-arrow-down" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
               <path d="M4 1h5v1H4a1 1 0 00-1 1v10a1 1 0 001 1h8a1 1 0 001-1V6h1v7a2 2 0 01-2 2H4a2 2 0 01-2-2V3a2 2 0 012-2z"/>
@@ -581,7 +581,7 @@
             <div aling="center">
             <h6 class="card-title" align="center">Archivos</h6>
               <div aling="justify">
-              <a href="archivos/2013.zip" download="2013">
+              <a href="http://hidrogeno.org.mx/wp-content/uploads/2017/07/2013.zip" download="2013">
               <p style="color: black">
               <svg class="bi bi-file-earmark-arrow-down" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
               <path d="M4 1h5v1H4a1 1 0 00-1 1v10a1 1 0 001 1h8a1 1 0 001-1V6h1v7a2 2 0 01-2 2H4a2 2 0 01-2-2V3a2 2 0 012-2z"/>
@@ -624,7 +624,7 @@
             <div aling="center">
             <h6 class="card-title" align="center">Archivos</h6>
               <div aling="justify">
-              <a href="archivos/2012.zip" download="2012">
+              <a href="http://hidrogeno.org.mx/wp-content/uploads/2017/07/2013.zip" download="2012">
               <p style="color: black">
               <svg class="bi bi-file-earmark-arrow-down" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
               <path d="M4 1h5v1H4a1 1 0 00-1 1v10a1 1 0 001 1h8a1 1 0 001-1V6h1v7a2 2 0 01-2 2H4a2 2 0 01-2-2V3a2 2 0 012-2z"/>
@@ -668,7 +668,7 @@
             <div aling="center">
             <h6 class="card-title" align="center">Archivos</h6>
               <div aling="justify">
-              <a href="archivos/2011.zip" download="2011">
+              <a href="http://hidrogeno.org.mx/wp-content/uploads/2017/07/2013.zip" download="2011">
               <p style="color: black">
               <svg class="bi bi-file-earmark-arrow-down" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
               <path d="M4 1h5v1H4a1 1 0 00-1 1v10a1 1 0 001 1h8a1 1 0 001-1V6h1v7a2 2 0 01-2 2H4a2 2 0 01-2-2V3a2 2 0 012-2z"/>
@@ -712,7 +712,7 @@
             <div aling="center">
             <h6 class="card-title" align="center">Archivos</h6>
               <div aling="justify">
-              <a href="archivos/2010.zip" download="2010">
+              <a href="http://hidrogeno.org.mx/wp-content/uploads/2017/07/2013.zip" download="2010">
               <p style="color: black">
               <svg class="bi bi-file-earmark-arrow-down" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
               <path d="M4 1h5v1H4a1 1 0 00-1 1v10a1 1 0 001 1h8a1 1 0 001-1V6h1v7a2 2 0 01-2 2H4a2 2 0 01-2-2V3a2 2 0 012-2z"/>
@@ -756,7 +756,7 @@
             <div aling="center">
             <h6 class="card-title" align="center">Archivos</h6>
               <div aling="justify">
-              <a href="archivos/2009.zip" download="2009">
+              <a href="http://hidrogeno.org.mx/wp-content/uploads/2017/07/2013.zip" download="2009">
               <p style="color: black">
               <svg class="bi bi-file-earmark-arrow-down" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
               <path d="M4 1h5v1H4a1 1 0 00-1 1v10a1 1 0 001 1h8a1 1 0 001-1V6h1v7a2 2 0 01-2 2H4a2 2 0 01-2-2V3a2 2 0 012-2z"/>
