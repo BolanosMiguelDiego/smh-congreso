@@ -61,15 +61,15 @@ Route::get('/actividades', function () {
     return view('eventos/actividades');
 });
 /**cursos */
-Route::get('/actividades', function () {
+Route::get('/cursos', function () {
     return view('eventos/cursos');
 });
 /**ponencias */
-Route::get('/actividades', function () {
+Route::get('/ponencias', function () {
     return view('eventos/ponencias');
 });
 /***talleres */
-Route::get('/actividades', function () {
+Route::get('/talleres', function () {
     return view('eventos/talleres');
 });
 /**************************************************************************** */
