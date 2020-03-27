@@ -105,33 +105,37 @@
                 <p class="card-text" style="font-size: 12px" align="justify">El Hotel Los Olivos se encuentra en Oaxaca, entre grandes jardines tropicales, y ofrece una gran piscina al aire libre y un spa. Las habitaciones, tranquilas y sencillas, tienen TV por cable, baño privado y ventilador.</p>
                 <p class="card-text" style="font-size: 12px" align="justify">El Hotel Los Olivos Spa está justo enfrente del Instituto Tecnológico de Oaxaca y a solo 200 metros de la autopista internacional.</p>
                 <div align="right">
-                <a href="#" class="btn btn-primary">Mas información</a>
+                <a href="#" class="btn btn-primary" style="background-image:url(imagenes/trivago.jpg); width: 112px; height:40px"></a>
+                <a href="#" class="btn btn-primary" style="background-image:url(imagenes/booking.png); width: 112px; height:40px"></a>
+                </div>
+                
+            </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+      <div class="card" style="width: 100%;">
+            <img src="imagenes/hoteles/fortin.png" class="card-img-top" alt="..." style="width: 50%; height: 105px;">
+            <div class="card-body">
+                <h5 class="card-title">Hotel Fortin Plaza</h5>
+                <p class="card-text" style="font-size: 11px" align="justify">Fortín Plaza es un hotel de negocios con 90 habitaciones con vista al Valle de Oaxaca y al centro histórico. Situado a unos pasos del Auditorio de La Guelaguetza y 25 km del aeropuerto, este hotel de Oaxaca cuenta con piscina climatizada, dos estacionamientos y ofrece especialidades de la cocina oaxaqueña en su restaurante.</p>
+                <p class="card-text" style="font-size: 11px" align="justify">Sus amplias habitaciones ofrecen un ambiente sencillo y acogedor con modernas amenidades, como pantalla LCD de 32” y ventilador de techo, y algunas cuentan con aire acondicionado, tina y terraza ...</p>
+                <div align="right">
+                <a href="#" class="btn btn-primary" style="background-image:url(imagenes/trivago.jpg); width: 112px; height:40px"></a>
+                <a href="#" class="btn btn-primary" style="background-image:url(imagenes/booking.png); width: 112px; height:40px"></a>
                 </div>
             </div>
         </div>
       </div>
       <div class="col-sm-4">
       <div class="card" style="width: 100%;">
-            <img src="imagenes/hoteles/victoria.png" class="card-img-top" alt="..." style="width: 50%; height: 105px;">
+            <img src="imagenes/hoteles/victoria.png" class="card-img-top" alt="..." style="width: 45%; height=80px;">
             <div class="card-body">
                 <h5 class="card-title">Hotel los olivos spa</h5>
-                <p class="card-text" style="font-size: 12px" align="justify">El Hotel Los Olivos se encuentra en Oaxaca, entre grandes jardines tropicales, y ofrece una gran piscina al aire libre y un spa. Las habitaciones, tranquilas y sencillas, tienen TV por cable, baño privado y ventilador.</p>
-                <p class="card-text" style="font-size: 12px" align="justify">El Hotel Los Olivos Spa está justo enfrente del Instituto Tecnológico de Oaxaca y a solo 200 metros de la autopista internacional.</p>
+                <p class="card-text" style="font-size: 10px" align="justify">Rodeado por 70,000 m2 de hermosos jardines, Hotel Victoria Oaxaca se encuentra ubicado en una reserva natural al pie del Cerro del Fortín. Con una ubicación excepcional, a tan sólo unos minutos del centro histórico de Oaxaca el hotel ofrece 147 habitaciones restaurante de cocina oaxaqueña e internacional, bar, piscina, bar de alberca, cancha de tenis y servicio a cuartos.</p>
+                <p class="card-text" style="font-size: 10px" align="justify">Cuentan con transportación gratuita al centro en determinados horarios, así como todas las facilidades para la realización de eventos, congresos ...</p>
                 <div align="right">
-                <a href="#" class="btn btn-primary">Mas información</a>
-                </div>
-            </div>
-        </div>
-      </div>
-      <div class="col-sm-4">
-      <div class="card" style="width: 100%;">
-            <img src="imagenes/hoteles/fortin.png" class="card-img-top" alt="..." style="width: 70%; height=155px;">
-            <div class="card-body">
-                <h5 class="card-title">Hotel los olivos spa</h5>
-                <p class="card-text" style="font-size: 12px" align="justify">El Hotel Los Olivos se encuentra en Oaxaca, entre grandes jardines tropicales, y ofrece una gran piscina al aire libre y un spa. Las habitaciones, tranquilas y sencillas, tienen TV por cable, baño privado y ventilador.</p>
-                <p class="card-text" style="font-size: 12px" align="justify">El Hotel Los Olivos Spa está justo enfrente del Instituto Tecnológico de Oaxaca y a solo 200 metros de la autopista internacional.</p>
-                <div align="right">
-                <a href="#" class="btn btn-primary">Mas información</a>
+                <a href="#" class="btn btn-primary" style="background-image:url(imagenes/trivago.jpg); width: 112px; height:40px"></a>
+                <a href="#" class="btn btn-primary" style="background-image:url(imagenes/booking.png); width: 112px; height:40px"></a>
                 </div>
             </div>
         </div>

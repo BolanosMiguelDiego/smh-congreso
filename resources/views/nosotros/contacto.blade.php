@@ -10,7 +10,7 @@
     <title>Document</title>
 </head>
 <body>
-
+ 
 
 
   <nav class="navbar navbar-expand-lg navbar-light bg-primary">
@@ -105,20 +105,37 @@
                                 </div>
                             </div>
                             <div class="card-body p-3">
-
-                                <!--Body-->
-                                <div class="contact-form">
-                                  {!!Form::text('name',null,['placeholder' => 'Nombre'])!!}
-
-                                  {!!Form::text('email',null,['placeholder' => 'Email'])!!}
+                              <!--Body-->
+                              <div class="form-group">
+                                    <div class="input-group mb-2">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text"><i class="fa fa-user text-info"></i></div>
+                                        </div>
+                                        <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre y Apellido" required>
+                                    </div>
                                 </div>
-                                <div class="col-md-6 contact-right">
-                                  {!!Form::textarea('mensaje',null,['placeholder' => 'Mensaje'])!!}
+                                <div class="form-group">
+                                    <div class="input-group mb-2">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text"><i class="fa fa-envelope text-info"></i></div>
+                                        </div>
+                                        <input type="email" class="form-control" id="nombre" name="email" placeholder="ejemplo@gmail.com" required>
+                                    </div>
                                 </div>
-                                {!!Form::submit('SEND')!!}
 
-                                    {{!Form::submit('send')}}
-                                    {{ !! Form::!! }}
+                                <div class="form-group">
+                                    <div class="input-group mb-2">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text"><i class="fa fa-comment text-info"></i></div>
+                                        </div>
+                                        <textarea class="form-control" placeholder="Envianos tu Mensaje" required></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="text-center" style="width: 30%">
+                                    <input type="submit" value="Enviar" class="btn btn-outline-primary btn-block rounded-0 py-2">
+
+                                </div>
                             </div>
 
                         </div>

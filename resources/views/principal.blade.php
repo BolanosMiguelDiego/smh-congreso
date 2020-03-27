@@ -138,6 +138,7 @@
 <br>
 <!-- mmmmmmmmmmmmmmmmmmmmmmmmm    pie de pagina mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm-->
 <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm-->
+<footer>
 <div class="card text-white bg-primary mb-3" style="max-width: 100%; height: 112px">
   <div class="card-body">
     <h5 class="card-title">Informacion</h5>
@@ -154,6 +155,7 @@
     
   </div>
 </div>
+</footer>
 <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm-->
 
  <!-- Optional JavaScript -->
