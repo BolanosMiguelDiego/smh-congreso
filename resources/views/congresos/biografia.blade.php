@@ -13,7 +13,7 @@
     color:white;
   }
 
-  @media (max-width: 575px) {
+  @media (max-width: 767px) {
     #perla{
       width:200px;
     }
