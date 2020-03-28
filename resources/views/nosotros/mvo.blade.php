@@ -7,6 +7,14 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <style>
+    .footer-copyright{
+    background-color: #2FACFF;
+    color:white;
+  }
+    </style>
+
     <title>Document</title>
 </head>
 <body>
@@ -143,22 +151,56 @@ y difusión de las Tecnologías del Hidrógeno</h6>
 
 <!-- mmmmmmmmmmmmmmmmmmmmmmmmm    pie de pagina mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm-->
 <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm-->
-<div class="card text-white bg-primary mb-3" style="max-width: 100%; height: 122px">
-  <div class="card-body">
-    <h5 class="card-title">Informacion</h5>
-    <table width="100%">
-      <tr>
-          <td><p class="card-text">Telefono: +52 (473) 7320006</p></td>  
-          <td><p class="card-text">Correo: contacto@smhidrogeno.net</p></td>
-          <td><p class="card-text"><p>Ubicacion:  Noria Alta s/n Noria Alta, 
-          Guanajuato, Gto. Mexico. 
-          C. P. 36050</p></td> 
-          <td><a href="http://www.itoaxaca.edu.mx/" style="color:white"><p>www.itoaxaca.edu.mx</p></a></td>  
-      </tr>
-    </table>
-    
+<!-- Footer -->
+<div class="dropdown-divider" ></div>
+<footer class="footer font-small ">
+
+  <!-- Copyright -->
+  
+  <div class="row" style="margin-top:10px;">
+    <div class="col-sm-1">
+    </div>
+    <div class="col-sm-3">
+    <br>
+    <br>
+    <h6  align="center">Contacto</h6>
+    <p></p>
+    <p  align="center" style="font-size:10px"><img src="imagenes/iconos/telefono.png" alt="" style="width:10px; heigth:10px;">
+    +52 (473) 7320006</p>
+    <p  align="center" style="font-size:10px"><img src="imagenes/iconos/email.png" alt="" style="width:20px; heigth:20px;">
+    Correo: contacto@smhidrogeno.net</p>
+    <p  align="center" style="font-size:10px"><img src="imagenes/iconos/ubicacion.png" alt="" style="width:20px; heigth:20px;">
+    Noria Alta s/n Noria Alta, 
+          Guanajuato, Gto. Mexico. C. P. 36050</p>
+    </div>
+    <div class="col-sm-4">
+    <p align="center"><img src="imagenes/smh.png" alt=" " class="img-responsive" width="120" heigth="100" align="center"></p>
+    <h6  align="center" >Siguenos en nuestras redes sociales</h6>
+    <p align="center">
+    <img src="imagenes/iconos/facebook.png" alt="" style="width:40px; heigth:40px;">
+    <img src="imagenes/iconos/twitter.png" alt="" style="width:40px; heigth:40px;">
+    <img src="imagenes/iconos/instagram.png" alt="" style="width:50px; heigth:50px;">
+    <img src="imagenes/iconos/youtube.png" alt="" style="width:40px; heigth:40px;">
+    </p>
+    </div>
+    <div class="col-sm-3">
+    <br>
+    <br>
+    <h6  align="center">Información Sede Congreso</h6>
+    <p></p>
+    <p  align="center" style="font-size:10px"><img src="imagenes/ito.png" alt="" style="width:50px; heigth:50px;"></p>
+    <p  align="center"><a href="javascript:window.open('http://www.itoaxaca.edu.mx/',);void 0" style="color:black">www.itoaxaca.edu.mx</a></p>
+    </div>
+    <div class="col-sm-1">
+    </div>
   </div>
-</div>
+  <div class="footer-copyright text-center py-3" >© 2020 Copyright:
+    <a href=""> <p style="color:white"> Sociedad Mexicana del Hidrogeno </p></a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
 <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm-->
 
  <!-- Optional JavaScript -->

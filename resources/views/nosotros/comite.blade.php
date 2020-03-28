@@ -7,7 +7,44 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-
+    <style>
+    .footer-copyright{
+    background-color: #2FACFF;
+    color:white;
+  }
+  /*** 1090 */
+  @media (max-width: 1000px) {
+      h5{
+        font-size:12px;
+        
+      }
+      h6{
+        font-size:12px;
+      }
+      p{
+        font-size:10px;
+      }
+      .btn{
+        font-size:10px;
+      }
+  }
+  @media (max-width: 575px) {
+    h5{
+        font-size:20px;
+        
+      }
+      h6{
+        font-size:15px;
+      }
+      p{
+        font-size:12px;
+      }
+      .btn{
+        font-size:15px;
+      }
+  }
+  
+    </style>
 
     <title>Document</title>
 </head>
@@ -93,8 +130,8 @@
   <div class="row" style="width: 98%;">
     <div class="col-sm-3">
       <div align="center">
-        <div class="card" style="width: 18rem; height:420px;">
-          <img src="../imagenes/presidenta.png" class="card-img-top" alt="..." style="height: 200px;">
+        <div id="presi" class="card" style="">
+          <img id=" presidenta" src="../imagenes/presidenta.png" class="card-img-top" alt="..." style="height: 200px;">
           <div class="card-body">
           <h5 class="card-title">Presidenta</h5>
            <h6 class="card-title">Dra. Beatriz Ruiz Camacho</h6>
@@ -106,7 +143,7 @@
     </div>
     <div class="col-sm-3">
       <div align="center">
-        <div class="card" style="width: 18rem; height:420px;">
+        <div class="card" style="">
           <img src="../imagenes/vice.jpg" class="card-img-top" alt="..." style="height: 200px;">
           <div class="card-body">
           <h5 class="card-title">Vice Presidente</h5>
@@ -119,12 +156,12 @@
     </div>
     <div class="col-sm-3">
       <div align="center">
-        <div class="card" style="width: 18rem; height:420px;">
+        <div class="card" style="">
           <img src="../imagenes/tesorero.jpg" class="card-img-top" alt="..." style="height: 200px;">
           
           <div class="card-body">
           <h5 class="card-title">Tesorero</h5>
-           <h6 class="card-title">Dr. Gliserio Romeli Barbosa Pool</h6>
+           <h6 class="card-title">Dr. Gliserio R. Barbosa Pool</h6>
            <p class="card-text"><small class="text-muted">romeli@uqroo.edu.mx</small></p>
            <button type="button" class="btn btn-outline-info" align="right" data-toggle="modal" data-target="#modal3">Información</button>
          </div>
@@ -133,11 +170,11 @@
     </div>
     <div class="col-sm-3">
       <div align="center">
-        <div class="card" style="width: 18rem; height:420px;">
+        <div class="card" style="">
           <img src="../imagenes/secretario.jpg" class="card-img-top" alt="..." style="height: 200px;">
           <div class="card-body">
           <h5 class="card-title">Secretario</h5>
-           <h6 class="card-title">Ing. Juan Antonio Gutiérrez Rodríguez</h6>
+           <h6 class="card-title">Ing. Juan A. Gutiérrez Rodríguez</h6>
            <p class="card-text"><small class="text-muted">info@smhidrogeno.net</small></p>
            <button type="button" class="btn btn-outline-info" align="right" data-toggle="modal" data-target="#modal4">Información</button>
          </div>
@@ -301,25 +338,56 @@ híbridos.</p>
 
 <!-- mmmmmmmmmmmmmmmmmmmmmmmmm    pie de pagina mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm-->
 <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm-->
-<div class="card text-white bg-primary mb-3" style="max-width: 100%; height: 112px">
-  <div class="card-body">
-    <h5 class="card-title">Informacion</h5>
-    <table width="100%">
-      <tr>
-          <td><p class="card-text">Telefono: +52 (473) 7320006</p></td>  
-          <td><p class="card-text">Correo: contacto@smhidrogeno.net</p></td>
-          <td><p class="card-text"><p>Ubicacion:  Noria Alta s/n Noria Alta, 
-          Guanajuato, Gto. Mexico. 
-          C. P. 36050</p></td> 
-          <td><a href="http://www.itoaxaca.edu.mx/" style="color:white"><p>www.itoaxaca.edu.mx</p></a></td>  
-      </tr>
-    </table>
-    
+<!-- Footer -->
+<div class="dropdown-divider" ></div>
+<footer class="footer font-small ">
+
+  <!-- Copyright -->
+  
+  <div class="row" style="margin-top:10px;">
+    <div class="col-sm-1">
+    </div>
+    <div class="col-sm-3">
+    <br>
+    <br>
+    <h6  align="center">Contacto</h6>
+    <p></p>
+    <p  align="center" style="font-size:10px"><img src="imagenes/iconos/telefono.png" alt="" style="width:10px; heigth:10px;">
+    +52 (473) 7320006</p>
+    <p  align="center" style="font-size:10px"><img src="imagenes/iconos/email.png" alt="" style="width:20px; heigth:20px;">
+    Correo: contacto@smhidrogeno.net</p>
+    <p  align="center" style="font-size:10px"><img src="imagenes/iconos/ubicacion.png" alt="" style="width:20px; heigth:20px;">
+    Noria Alta s/n Noria Alta, 
+          Guanajuato, Gto. Mexico. C. P. 36050</p>
+    </div>
+    <div class="col-sm-4">
+    <p align="center"><img src="imagenes/smh.png" alt=" " class="img-responsive" width="120" heigth="100" align="center"></p>
+    <h6  align="center" >Siguenos en nuestras redes sociales</h6>
+    <p align="center">
+    <img src="imagenes/iconos/facebook.png" alt="" style="width:40px; heigth:40px;">
+    <img src="imagenes/iconos/twitter.png" alt="" style="width:40px; heigth:40px;">
+    <img src="imagenes/iconos/instagram.png" alt="" style="width:50px; heigth:50px;">
+    <img src="imagenes/iconos/youtube.png" alt="" style="width:40px; heigth:40px;">
+    </p>
+    </div>
+    <div class="col-sm-3">
+    <br>
+    <br>
+    <h6  align="center">Información Sede Congreso</h6>
+    <p></p>
+    <p  align="center" style="font-size:10px"><img src="imagenes/ito.png" alt="" style="width:50px; heigth:50px;"></p>
+    <p  align="center"><a href="javascript:window.open('http://www.itoaxaca.edu.mx/',);void 0" style="color:black">www.itoaxaca.edu.mx</a></p>
+    </div>
+    <div class="col-sm-1">
+    </div>
   </div>
-</div>
+  <div class="footer-copyright text-center py-3" >© 2020 Copyright:
+    <a href=""> <p style="color:white"> Sociedad Mexicana del Hidrogeno </p></a>
+  </div>
+  <!-- Copyright -->
 
-
-
+</footer>
+<!-- Footer -->
 <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm-->
 
  <!-- Optional JavaScript -->

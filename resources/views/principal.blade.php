@@ -7,7 +7,36 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+    .footer-copyright{
+      background-color: #2FACFF;
+      color:white;
+    }
 
+  @media (max-width: 767px) {
+    #titulo{
+      font-size:30px;
+    }
+    #sede{
+      width:20px;
+      height:80px;
+    }
+    #numero{
+      width:20px;
+      height:80px;
+    }
+    #smh{
+      width:20px;
+      height:80px;
+    }
+    #hexagonos{
+      width:90%;
+      height:100px;
+    }
+  }
+  
+
+</style>
     <title>Document</title>
 </head>
 <body>
@@ -96,7 +125,7 @@
             <!--
                 <td><img src="imagenes/numero.png" alt=" " class="img-responsive" width="200" align="left"></td>
                 -->
-                <td><h1 align="center" style="font-size: 50px"><b>
+                <td><h1 align="center" id="titulo" ><b>
                             	Congreso Internacional de la Sociedad Mexicana del Hidrogeno
                             </b></h1></td>
             </tr>
@@ -118,13 +147,13 @@
   <div class="col-sm-1">
   </div>
   <div class="col-sm-3">
-    <img src="imagenes/ito.png" alt=" " class="img-responsive" width="120" heigth="100" align="center">
+    <img id="sede" src="imagenes/ito.png" alt=" " class="img-responsive" style="width:120px; heigth:100px" align="center" >
   </div>
   <div class="col-sm-4">
-    <img src="imagenes/numero.png" alt=" " class="img-responsive" width="200" align="center">
+    <img src="imagenes/numero.png" alt=" " class="img-responsive" style="width:200px;" align="center" id="numero">
   </div>
   <div class="col-sm-3" align="center">
-    <img src="imagenes/smh.png" alt=" " class="img-responsive" width="150" heigth="100" align="center">
+    <img src="imagenes/smh.png" alt=" " class="img-responsive" style="width:150px; heigth:100px" align="center" id="smh">
   </div>
   <div class="col-sm-1">
   </div>
@@ -133,29 +162,61 @@
 <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm-->
  
 <div align="center" style="width: 98%; background-image: url(imagenes/lineas.png);">
-          <img src="/imagenes/hexagonos.png" alt=" " class="img-responsive" width="800">          
+          <img id="hexagonos" src="/imagenes/hexagonos.png" alt=" " class="img-responsive" width="800">          
 </div>
 <br>
 <!-- mmmmmmmmmmmmmmmmmmmmmmmmm    pie de pagina mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm-->
 <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm-->
-<footer>
-<div class="card text-white bg-primary mb-3" style="max-width: 100%; height: 112px">
-  <div class="card-body">
-    <h5 class="card-title">Informacion</h5>
-    <table width="100%">
-      <tr>
-          <td><p class="card-text">Telefono: +52 (473) 7320006</p></td>  
-          <td><p class="card-text">Correo: contacto@smhidrogeno.net</p></td>
-          <td><p class="card-text"><p>Ubicacion:  Noria Alta s/n Noria Alta, 
-          Guanajuato, Gto. Mexico. 
-          C. P. 36050</p></td> 
-          <td><a href="http://www.itoaxaca.edu.mx/" style="color:white"><p>www.itoaxaca.edu.mx</p></a></td>  
-      </tr>
-    </table>
-    
+<!-- Footer -->
+<div class="dropdown-divider" ></div>
+<footer class="footer font-small ">
+
+  <!-- Copyright -->
+  
+  <div class="row" style="margin-top:10px;">
+    <div class="col-sm-1">
+    </div>
+    <div class="col-sm-3">
+    <br>
+    <br>
+    <h6  align="center">Contacto</h6>
+    <p></p>
+    <p  align="center" style="font-size:10px"><img src="imagenes/iconos/telefono.png" alt="" style="width:10px; heigth:10px;">
+    +52 (473) 7320006</p>
+    <p  align="center" style="font-size:10px"><img src="imagenes/iconos/email.png" alt="" style="width:20px; heigth:20px;">
+    Correo: contacto@smhidrogeno.net</p>
+    <p  align="center" style="font-size:10px"><img src="imagenes/iconos/ubicacion.png" alt="" style="width:20px; heigth:20px;">
+    Noria Alta s/n Noria Alta, 
+          Guanajuato, Gto. Mexico. C. P. 36050</p>
+    </div>
+    <div class="col-sm-4">
+    <p align="center"><img src="imagenes/smh.png" alt=" " class="img-responsive" width="120" heigth="100" align="center"></p>
+    <h6  align="center" >Siguenos en nuestras redes sociales</h6>
+    <p align="center">
+    <img src="imagenes/iconos/facebook.png" alt="" style="width:40px; heigth:40px;">
+    <img src="imagenes/iconos/twitter.png" alt="" style="width:40px; heigth:40px;">
+    <img src="imagenes/iconos/instagram.png" alt="" style="width:50px; heigth:50px;">
+    <img src="imagenes/iconos/youtube.png" alt="" style="width:40px; heigth:40px;">
+    </p>
+    </div>
+    <div class="col-sm-3">
+    <br>
+    <br>
+    <h6  align="center">Información Sede Congreso</h6>
+    <p></p>
+    <p  align="center" style="font-size:10px"><img src="imagenes/ito.png" alt="" style="width:50px; heigth:50px;"></p>
+    <p  align="center"><a href="javascript:window.open('http://www.itoaxaca.edu.mx/',);void 0" style="color:black">www.itoaxaca.edu.mx</a></p>
+    </div>
+    <div class="col-sm-1">
+    </div>
   </div>
-</div>
+  <div class="footer-copyright text-center py-3" >© 2020 Copyright:
+    <a href=""> <p style="color:white"> Sociedad Mexicana del Hidrogeno </p></a>
+  </div>
+  <!-- Copyright -->
+
 </footer>
+<!-- Footer -->
 <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm-->
 
  <!-- Optional JavaScript -->
