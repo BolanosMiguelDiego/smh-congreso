@@ -41,10 +41,13 @@
       width:20%;
     }
     #int{
-      height:360px;
+      height:380px;
     }
     #historia{
       width:40%;
+    }
+    #his{
+      height:850px;
     }
 
     

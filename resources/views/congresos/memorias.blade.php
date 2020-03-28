@@ -94,7 +94,7 @@
     <div class="row" style="width: 100%;">
         <div class="col-sm-3">
         </div>
-        <div class="col-sm-6" style="width: 50%">
+        <div id="galeria" class="col-sm-6" style="">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -130,17 +130,17 @@
 <!-- Comite academico de la SMH -->
 <div align="center" style="margin-top: 20px; background-image: url(imagenes/lineas.png);">
   <div class="row" style="width: 98%;">
-    <div class="col-sm-2">
+    <div class="col-sm-3">
       <div align="center">
         <div class="card border-info" >
           <div class="card-body">
           <h5 class="card-title" style="font-size:14px">Memorias 2019</h5>
-           <button type="button" class="btn btn-outline-info" align="right" data-toggle="modal" data-target="#modal1" style="font-size:10px">Descargar archivos</button>
+           <button type="button" class="btn btn-outline-info" align="center" data-toggle="modal" data-target="#modal1" style="font-size:10px">Descargar archivos</button>
          </div>
         </div>
       </div>
     </div>
-    <div class="col-sm-2">
+    <div class="col-sm-3">
       <div align="center">
         <div class="card border-info" >
           <div class="card-body">
@@ -150,7 +150,7 @@
         </div>
       </div>
     </div>
-    <div class="col-sm-2">
+    <div class="col-sm-3">
       <div align="center">
         <div class="card border-info" >
           <div class="card-body">
@@ -160,7 +160,7 @@
         </div>
       </div>
     </div>
-    <div class="col-sm-2">
+    <div class="col-sm-3">
       <div align="center">
         <div class="card border-info" >
           <div class="card-body">
@@ -170,7 +170,12 @@
         </div>
       </div>
     </div>
-    <div class="col-sm-2">
+    
+  </div>
+  <!-- termino de row-->
+  <br>
+  <div class="row" style="width: 98%;">
+  <div class="col-sm-3">
       <div align="center">
         <div class="card border-info" >
           <div class="card-body">
@@ -180,7 +185,7 @@
         </div>
       </div>
     </div>
-    <div class="col-sm-2">
+    <div class="col-sm-3">
       <div align="center">
         <div class="card border-info" >
           <div class="card-body">
@@ -190,11 +195,7 @@
         </div>
       </div>
     </div>
-  </div>
-  <!-- termino de row-->
-  <br>
-  <div class="row" style="width: 98%;">
-    <div class="col-sm-2">
+    <div class="col-sm-3">
       <div align="center">
         <div class="card border-info" >
           <div class="card-body">
@@ -204,7 +205,7 @@
         </div>
       </div>
     </div>
-    <div class="col-sm-2">
+    <div class="col-sm-3">
       <div align="center">
         <div class="card border-info" >
           <div class="card-body">
@@ -214,7 +215,12 @@
         </div>
       </div>
     </div>
-    <div class="col-sm-2">
+    
+  </div>
+  <br>
+  <!-- Row -->
+  <div class="row" style="width: 98%;">
+  <div class="col-sm-3">
       <div align="center">
         <div class="card border-info" >
           <div class="card-body">
@@ -224,7 +230,7 @@
         </div>
       </div>
     </div>
-    <div class="col-sm-2">
+    <div class="col-sm-3">
       <div align="center">
         <div class="card border-info" >
           <div class="card-body">
@@ -234,7 +240,7 @@
         </div>
       </div>
     </div>
-    <div class="col-sm-2">
+    <div class="col-sm-3">
       <div align="center">
         <div class="card border-info" >
           <div class="card-body">

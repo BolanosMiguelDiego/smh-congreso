@@ -12,6 +12,15 @@
     background-color: #2FACFF;
     color:white;
   }
+
+  @media (max-width: 575px) {
+    #perla{
+      width:200px;
+    }
+    #arturo{
+      width:200px;
+    }
+  }
     </style>
     <title>Document</title>
 </head>
@@ -146,7 +155,7 @@
       <div class="modal-body">
         <div class="row">
           <div class="col-md-3">
-          <img src="../imagenes/perla_balbuena.jpg" class="card-img-top" alt="..." style="height: 200px;">
+          <img id="perla" src="../imagenes/perla_balbuena.jpg" class="card-img-top" alt="..." style="height: 200px;">
           </div>
           <div class="col-md-9">
             <div aling="center">
@@ -198,7 +207,7 @@ TEES Senior Fellow, 2013</p>
       <div class="modal-body">
         <div class="row">
           <div class="col-md-3">
-          <img src="../imagenes/arturo_f.jpg" class="card-img-top" alt="..." style="height: 200px;">
+          <img id="arturo" src="../imagenes/arturo_f.jpg" class="card-img-top" alt="..." style="height: 200px;">
           </div>
           <div class="col-md-9">
             <div aling="center">

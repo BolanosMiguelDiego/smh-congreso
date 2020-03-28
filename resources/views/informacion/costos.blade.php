@@ -11,6 +11,47 @@
     background-color: #2FACFF;
     color:white;
   }
+
+  #gub{
+    color: #007BFF; font-size: 25px; height: 60px;
+  }
+
+  @media (max-width: 1050px)  {
+    #gub{
+      font-size:10px;
+    }
+    h2{
+      font-size:10px;
+    }
+    .btn{
+      font-size:12px;
+    }
+    h3{
+      font-size:12px;
+    }
+    p{
+      font-size:10px;
+    }
+    
+  }
+  @media (max-width: 575px) {
+
+    #gub{
+      font-size:25px;
+    }
+    h2{
+      font-size:30px;
+    }
+    .btn{
+      font-size:15px;
+    }
+    h3{
+      font-size:20px;
+    }
+    p{
+      font-size:15px;
+    }
+  }
     </style>
     <title>Document</title>
 </head>
@@ -123,7 +164,7 @@
       <div class="col-sm-3">
        <div align="center">
          <div class="card border-secondary mb-3" style="max-width: 18rem; border-color: black">
-          <div class="card-header"><h2 style="color: #007BFF; font-size: 25px; height: 60px;">Gubernamental y Academia</h2></div>
+          <div class="card-header"><h2 id="gub" style="">Gubernamental y Academia</h2></div>
             <div class="card-body">
               <h3 class="card-title"> $350</h3>
               <p class="card-text">Antes del congreso</p>
