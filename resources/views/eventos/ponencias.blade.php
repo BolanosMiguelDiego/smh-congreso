@@ -94,32 +94,45 @@
 <!-- Codigo para el encabezado de la pagina-->
 
 <!-- Costos -->
-<br>
 
 <div align="center">
   <div class="card" style="width: 98%">
-    <div class="card-header">
-      <h4>Ponencias</h4>
+  <div class="card-header">
+    <h3>Expositores</h3>
+  </div>
+  <div align="center" style="margin-top: 20px;">
+      <div align="center">
+      <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm-->
+      <div class="row" style="width: 98%;">
+    <div class="col-sm-4">
+      <div class="card" style="width: 18rem;">
+        <img src="imagenes/perla_balbuena.jpg" class="card-img-top" alt="..." style="height: 200px; width:200px;">
+        <div class="card-body">
+          <h5 class="card-title">Professor Perla Balbuena</h5>
+          <p class="card-text" align="Center" style="font-size:12px;">of Texas A&M University</p>
+          <p class="card-text" align="Center" style="font-size:12px;">USA</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-4">
+      <div class="card" style="width: 18rem;">
+        <img src="imagenes/Emilio_Gallego.jfif" class="card-img-top" alt="..." style="height: 200px; width:200px;">
+        <div class="card-body">
+          <h5 class="card-title">Dr. Emilio Nieto Gallego</h5>
+          <p class="card-text" align="Center" style="font-size:12px;">of National Hydrogen Center</p>
+          <p class="card-text" align="Center" style="font-size:12px;">España</p>
+        </div>
+      </div>
     </div>
   </div>
+      <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm-->
+</div>
 </div>
 <br>
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-<br>
-
 <!-- mmmmmmmmmmmmmmmmmmmmmmmmm    pie de pagina mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm-->
 <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm-->
 <!-- Footer -->
