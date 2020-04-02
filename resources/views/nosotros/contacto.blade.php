@@ -144,12 +144,7 @@
                                 <div class="form-group">
                                    <button type="submit" id='btn-contact' class="btn btn-outline-primary btn-block rounded-0 py-2">Enviar</button>
                                 </div>
-                                <script>
-    var r = document.getElementById("btn-contact"); 
-    //Tus validaciones para saber si los datos son correctos o no....
-    r.value = 1 //o 0, dependiendo de tu validacion
-    r.element.form.submit();
-</script>
+                                
                               </form>
                               
                               
