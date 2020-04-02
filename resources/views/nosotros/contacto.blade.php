@@ -104,8 +104,6 @@
 
 
                     <!--Form with header-->
-
-                    <form action="mail.php" method="post">
                         <div class="card  rounded-0">
                             <div class="card-header p-0">
                                 <div class="bg text-white text-center py-2" style="background-color: #F0F0F0">
@@ -115,40 +113,51 @@
                             </div>
                             <div class="card-body p-3">
                               <!--Body-->
-                              <div class="form-group">
-                                    <div class="input-group mb-2">
+                              <form action="{{route('contact')}}" method="POST">
+                                {{ csrf_field() }}
+                                <div class="form-group">
+                                  <div class="input-group mb-2">
                                         <div class="input-group-prepend">
                                             <div class="input-group-text"><i class="fa fa-user text-info"></i></div>
                                         </div>
-                                        <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre y Apellido" required>
-                                    </div>
+                                        <input type="text" class="form-control" id="name" name="name" placeholder="Nombre y Apellido" required>
+                                  </div>
                                 </div>
+                                <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm-->
                                 <div class="form-group">
                                     <div class="input-group mb-2">
                                         <div class="input-group-prepend">
                                             <div class="input-group-text"><i class="fa fa-envelope text-info"></i></div>
                                         </div>
-                                        <input type="email" class="form-control" id="nombre" name="email" placeholder="ejemplo@gmail.com" required>
+                                        <input type="email" class="form-control" id="email" name="email" placeholder="ejemplo@gmail.com" required>
                                     </div>
                                 </div>
-
+                                <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm-->
                                 <div class="form-group">
                                     <div class="input-group mb-2">
                                         <div class="input-group-prepend">
                                             <div class="input-group-text"><i class="fa fa-comment text-info"></i></div>
                                         </div>
-                                        <textarea class="form-control" placeholder="Envianos tu Mensaje" required></textarea>
+                                        <textarea class="form-control" placeholder="Envianos tu Mensaje" required id="msg" name="msg"></textarea>
                                     </div>
                                 </div>
-
-                                <div class="text-center" style="width: 30%">
-                                    <input type="submit" value="Enviar" class="btn btn-outline-primary btn-block rounded-0 py-2">
-
+                                <div class="form-group">
+                                   <button type="submit" id='btn-contact' class="btn btn-outline-primary btn-block rounded-0 py-2">Enviar</button>
                                 </div>
+                                <script>
+    var r = document.getElementById("btn-contact"); 
+    //Tus validaciones para saber si los datos son correctos o no....
+    r.value = 1 //o 0, dependiendo de tu validacion
+    r.element.form.submit();
+</script>
+                              </form>
+                              
+                              
+                                
                             </div>
 
                         </div>
-                    </form>
+  
                     <!--Form with header-->
 
 
@@ -157,7 +166,9 @@
 </div>
 </div>
 </div>
-
+<br>
+<br>
+<br>
 <!-- mmmmmmmmmmmmmmmmmmmmmmmmm    pie de pagina mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm-->
 <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm-->
 <!-- Footer -->

@@ -15,6 +15,10 @@
 Route::get('/', function () {
     return view('principal');
 });
+
+
+Route::post('/contactar', 'EmailController@contact')->name('contact');
+//Ruta que esta señalando nuestro formulario
 /*********************************************************************** */
 /********************nosotros******************************************* */
 /************************************************************************ */
