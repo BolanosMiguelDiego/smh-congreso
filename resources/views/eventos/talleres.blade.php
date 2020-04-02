@@ -74,13 +74,15 @@
           Eventos
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="{{ url('/cursos')}}">Cursos</a>
+        <a class="dropdown-item" href="{{ url('/talleres')}}">Temas</a>
           <div class="dropdown-divider" ></div>
           <a class="dropdown-item" href="{{ url('/ponencias')}}">Ponencias</a>
           <div class="dropdown-divider" ></div>
-          <a class="dropdown-item" href="{{ url('/talleres')}}">Talleres</a>
+          <a class="dropdown-item" href="{{ url('/cursos')}}">Cursos</a>
           <div class="dropdown-divider" ></div>
           <a class="dropdown-item" href="{{ url('/actividades')}}">Actividades</a>
+          <div class="dropdown-divider" ></div>
+          <a class="dropdown-item" href="{{ url('/sede')}}">Sede</a>
         </div>
       </li>
     </ul>
@@ -99,24 +101,23 @@
 <div align="center">
   <div class="card" style="width: 98%">
     <div class="card-header">
-      <h4>Talleres</h4>
+      <h4>Temas</h4>
     </div>
   </div>
 </div>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+<div class="container-fluid" style="width: 80%">
+  <p></p>
+  <h4><img src="imagenes/iconos/hidrogeno.png" alt="" style="width:30px; heigth:30px;">     Producción, almacenamiento y aplicaciones de hidrógeno.</h4>
+  <h4><img src="imagenes/iconos/hidrogeno.png" alt="" style="width:30px; heigth:30px;">     Componentes de pilas de combustible y pilas</h4>
+  <h4><img src="imagenes/iconos/hidrogeno.png" alt="" style="width:30px; heigth:30px;">     Celdas de combustible de oxidación directa</h4>
+  <h4><img src="imagenes/iconos/hidrogeno.png" alt="" style="width:30px; heigth:30px;">     Sistemas de Energías Renovables</h4>
+  <h4><img src="imagenes/iconos/hidrogeno.png" alt="" style="width:30px; heigth:30px;">     Materiales nanoestructurados</h4>
+  <h4><img src="imagenes/iconos/hidrogeno.png" alt="" style="width:30px; heigth:30px;">     Modelado y Diseño</h4>
+  <h4><img src="imagenes/iconos/hidrogeno.png" alt="" style="width:30px; heigth:30px;">     Aspectos ambientales</h4>
+  <h4><img src="imagenes/iconos/hidrogeno.png" alt="" style="width:30px; heigth:30px;">     Control y Acondicionamiento de Energía</h4>
+  <h4><img src="imagenes/iconos/hidrogeno.png" alt="" style="width:30px; heigth:30px;">     Políticas, economía y estrategias de mercado</h4>
+</div>
 
 <br>
 
@@ -132,7 +133,6 @@
     <div class="col-sm-1">
     </div>
     <div class="col-sm-3">
-    <br>
     <br>
     <h6  align="center">Contacto</h6>
     <p></p>
@@ -156,11 +156,12 @@
     </div>
     <div class="col-sm-3">
     <br>
-    <br>
+
     <h6  align="center">Información Sede Congreso</h6>
     <p></p>
     <p  align="center" style="font-size:10px"><img src="imagenes/ito.png" alt="" style="width:50px; heigth:50px;"></p>
     <p  align="center"><a href="javascript:window.open('http://www.itoaxaca.edu.mx/',);void 0" style="color:black">www.itoaxaca.edu.mx</a></p>
+    <p align="center" style="font-size:12px">congresoxxsmh@gmail.com</p>
     </div>
     <div class="col-sm-1">
     </div>
@@ -173,6 +174,7 @@
 </footer>
 <!-- Footer -->
 <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm-->
+
 
  <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

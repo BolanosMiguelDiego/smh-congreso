@@ -76,13 +76,15 @@
           Eventos
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="{{ url('/cursos')}}">Cursos</a>
+        <a class="dropdown-item" href="{{ url('/talleres')}}">Temas</a>
           <div class="dropdown-divider" ></div>
           <a class="dropdown-item" href="{{ url('/ponencias')}}">Ponencias</a>
           <div class="dropdown-divider" ></div>
-          <a class="dropdown-item" href="{{ url('/talleres')}}">Talleres</a>
+          <a class="dropdown-item" href="{{ url('/cursos')}}">Cursos</a>
           <div class="dropdown-divider" ></div>
           <a class="dropdown-item" href="{{ url('/actividades')}}">Actividades</a>
+          <div class="dropdown-divider" ></div>
+          <a class="dropdown-item" href="{{ url('/sede')}}">Sede</a>
         </div>
       </li>
     </ul>
@@ -148,7 +150,6 @@ y difusión de las Tecnologías del Hidrógeno</h6>
 <br>
 <br>
 <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm-->
-
 <!-- mmmmmmmmmmmmmmmmmmmmmmmmm    pie de pagina mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm-->
 <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm-->
 <!-- Footer -->
@@ -161,7 +162,6 @@ y difusión de las Tecnologías del Hidrógeno</h6>
     <div class="col-sm-1">
     </div>
     <div class="col-sm-3">
-    <br>
     <br>
     <h6  align="center">Contacto</h6>
     <p></p>
@@ -185,11 +185,12 @@ y difusión de las Tecnologías del Hidrógeno</h6>
     </div>
     <div class="col-sm-3">
     <br>
-    <br>
+
     <h6  align="center">Información Sede Congreso</h6>
     <p></p>
     <p  align="center" style="font-size:10px"><img src="imagenes/ito.png" alt="" style="width:50px; heigth:50px;"></p>
     <p  align="center"><a href="javascript:window.open('http://www.itoaxaca.edu.mx/',);void 0" style="color:black">www.itoaxaca.edu.mx</a></p>
+    <p align="center" style="font-size:12px">congresoxxsmh@gmail.com</p>
     </div>
     <div class="col-sm-1">
     </div>
@@ -202,6 +203,7 @@ y difusión de las Tecnologías del Hidrógeno</h6>
 </footer>
 <!-- Footer -->
 <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm-->
+
 
  <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

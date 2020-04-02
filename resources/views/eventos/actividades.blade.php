@@ -74,13 +74,15 @@
           Eventos
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="{{ url('/cursos')}}">Cursos</a>
+        <a class="dropdown-item" href="{{ url('/talleres')}}">Temas</a>
           <div class="dropdown-divider" ></div>
           <a class="dropdown-item" href="{{ url('/ponencias')}}">Ponencias</a>
           <div class="dropdown-divider" ></div>
-          <a class="dropdown-item" href="{{ url('/talleres')}}">Talleres</a>
+          <a class="dropdown-item" href="{{ url('/cursos')}}">Cursos</a>
           <div class="dropdown-divider" ></div>
           <a class="dropdown-item" href="{{ url('/actividades')}}">Actividades</a>
+          <div class="dropdown-divider" ></div>
+          <a class="dropdown-item" href="{{ url('/sede')}}">Sede</a>
         </div>
       </li>
     </ul>
@@ -104,20 +106,27 @@
   </div>
 </div>
 <br>
+<div class="container-fluid" style="width: 80%">
+  <h3 align="center" style="color:#34C6FF; width:bold">Fechas importantes</h3>
+  <br>
+  <h6><img src="imagenes/iconos/hidrogeno.png" alt="" style="width:30px; heigth:30px;">     Fecha límite de envío de resúmenes: 15 de abril de 2020</h6>
+  <h6><img src="imagenes/iconos/hidrogeno.png" alt="" style="width:30px; heigth:30px;">     Notificación de aceptación del resumen: 30 de abril de 2020</h6>
+  <h6><img src="imagenes/iconos/hidrogeno.png" alt="" style="width:30px; heigth:30px;">     Plazo de presentación de artículos completos: 30 de junio de 2020</h6>
+  <h6><img src="imagenes/iconos/hidrogeno.png" alt="" style="width:30px; heigth:30px;">     Inscripción anticipada: 30 de junio de 2020</h6>
+  <h6><img src="imagenes/iconos/hidrogeno.png" alt="" style="width:30px; heigth:30px;">     Curso precongreso: 22 de septiembre de 2020</h6>
+  <h6><img src="imagenes/iconos/hidrogeno.png" alt="" style="width:30px; heigth:30px;">     Conferencia: 23 y 25 de septiembre de 2020</h6>
+  <br>
+  <h4 align="center" style="color:black; width:bold">Los trabajos seleccionados se publicarán en el "International Journal of Hydrogen Energy".</h4>
+  <p align="center">Los resúmenes y artículos completos se publicarán en memorias revisadas por pares con ISNN.</p>
+  <div align="center">
+  <img src="imagenes/noticias/revista.jpg" alt="" >
+  </div>
+  
+</div>
 <br>
 <br>
 <br>
 <br>
-<br>
-<br>
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
 <br>
 <!-- mmmmmmmmmmmmmmmmmmmmmmmmm    pie de pagina mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm-->
 <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm-->
@@ -131,7 +140,6 @@
     <div class="col-sm-1">
     </div>
     <div class="col-sm-3">
-    <br>
     <br>
     <h6  align="center">Contacto</h6>
     <p></p>
@@ -155,11 +163,12 @@
     </div>
     <div class="col-sm-3">
     <br>
-    <br>
+
     <h6  align="center">Información Sede Congreso</h6>
     <p></p>
     <p  align="center" style="font-size:10px"><img src="imagenes/ito.png" alt="" style="width:50px; heigth:50px;"></p>
     <p  align="center"><a href="javascript:window.open('http://www.itoaxaca.edu.mx/',);void 0" style="color:black">www.itoaxaca.edu.mx</a></p>
+    <p align="center" style="font-size:12px">congresoxxsmh@gmail.com</p>
     </div>
     <div class="col-sm-1">
     </div>

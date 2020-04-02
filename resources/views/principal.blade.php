@@ -98,13 +98,15 @@
           Eventos
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="{{ url('/cursos')}}">Cursos</a>
+          <a class="dropdown-item" href="{{ url('/talleres')}}">Temas</a>
           <div class="dropdown-divider" ></div>
           <a class="dropdown-item" href="{{ url('/ponencias')}}">Ponencias</a>
           <div class="dropdown-divider" ></div>
-          <a class="dropdown-item" href="{{ url('/talleres')}}">Talleres</a>
+          <a class="dropdown-item" href="{{ url('/cursos')}}">Cursos</a>
           <div class="dropdown-divider" ></div>
           <a class="dropdown-item" href="{{ url('/actividades')}}">Actividades</a>
+          <div class="dropdown-divider" ></div>
+          <a class="dropdown-item" href="{{ url('/sede')}}">Sede</a>
         </div>
       </li>
     </ul>
@@ -128,6 +130,10 @@
                 <td><h1 align="center" id="titulo" ><b>
                             	Congreso Internacional de la Sociedad Mexicana del Hidrogeno
                             </b></h1></td>
+                
+            </tr>
+            <tr>
+            <td><h6 align="center">Oaxaca, México, del 22 al 25 de septiembre de 2020</h6></td>
             </tr>
 
         </tbody>
@@ -178,7 +184,6 @@
     </div>
     <div class="col-sm-3">
     <br>
-    <br>
     <h6  align="center">Contacto</h6>
     <p></p>
     <p  align="center" style="font-size:10px"><img src="imagenes/iconos/telefono.png" alt="" style="width:10px; heigth:10px;">
@@ -201,11 +206,12 @@
     </div>
     <div class="col-sm-3">
     <br>
-    <br>
+
     <h6  align="center">Información Sede Congreso</h6>
     <p></p>
     <p  align="center" style="font-size:10px"><img src="imagenes/ito.png" alt="" style="width:50px; heigth:50px;"></p>
     <p  align="center"><a href="javascript:window.open('http://www.itoaxaca.edu.mx/',);void 0" style="color:black">www.itoaxaca.edu.mx</a></p>
+    <p align="center" style="font-size:12px">congresoxxsmh@gmail.com</p>
     </div>
     <div class="col-sm-1">
     </div>
@@ -218,6 +224,7 @@
 </footer>
 <!-- Footer -->
 <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm-->
+
 
  <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

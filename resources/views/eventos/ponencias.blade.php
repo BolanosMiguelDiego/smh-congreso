@@ -74,13 +74,15 @@
           Eventos
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="{{ url('/cursos')}}">Cursos</a>
+        <a class="dropdown-item" href="{{ url('/talleres')}}">Temas</a>
           <div class="dropdown-divider" ></div>
           <a class="dropdown-item" href="{{ url('/ponencias')}}">Ponencias</a>
           <div class="dropdown-divider" ></div>
-          <a class="dropdown-item" href="{{ url('/talleres')}}">Talleres</a>
+          <a class="dropdown-item" href="{{ url('/cursos')}}">Cursos</a>
           <div class="dropdown-divider" ></div>
           <a class="dropdown-item" href="{{ url('/actividades')}}">Actividades</a>
+          <div class="dropdown-divider" ></div>
+          <a class="dropdown-item" href="{{ url('/sede')}}">Sede</a>
         </div>
       </li>
     </ul>
@@ -98,7 +100,7 @@
 <div align="center">
   <div class="card" style="width: 98%">
   <div class="card-header">
-    <h3>Expositores</h3>
+    <h3>PONENTES INVITADOS</h3>
   </div>
   <div align="center" style="margin-top: 20px;">
       <div align="center">
@@ -106,7 +108,7 @@
       <div class="row" style="width: 98%;">
     <div class="col-sm-4">
       <div class="card" style="width: 18rem;">
-        <img src="imagenes/perla_balbuena.jpg" class="card-img-top" alt="..." style="height: 200px; width:200px;">
+        <img src="imagenes/perla_balbuena.jpg" class="card-img-top" alt="..." style="height: 200px; width:200px; margin-top:5px;">
         <div class="card-body">
           <h5 class="card-title">Professor Perla Balbuena</h5>
           <p class="card-text" align="Center" style="font-size:12px;">of Texas A&M University</p>
@@ -117,7 +119,7 @@
 
     <div class="col-sm-4">
       <div class="card" style="width: 18rem;">
-        <img src="imagenes/Emilio_Gallego.jfif" class="card-img-top" alt="..." style="height: 200px; width:200px;">
+        <img src="imagenes/Emilio_Gallego.jfif" class="card-img-top" alt="..." style="height: 200px; width:200px; margin-top:5px;">
         <div class="card-body">
           <h5 class="card-title">Dr. Emilio Nieto Gallego</h5>
           <p class="card-text" align="Center" style="font-size:12px;">of National Hydrogen Center</p>
@@ -146,7 +148,6 @@
     </div>
     <div class="col-sm-3">
     <br>
-    <br>
     <h6  align="center">Contacto</h6>
     <p></p>
     <p  align="center" style="font-size:10px"><img src="imagenes/iconos/telefono.png" alt="" style="width:10px; heigth:10px;">
@@ -169,11 +170,12 @@
     </div>
     <div class="col-sm-3">
     <br>
-    <br>
+
     <h6  align="center">Información Sede Congreso</h6>
     <p></p>
     <p  align="center" style="font-size:10px"><img src="imagenes/ito.png" alt="" style="width:50px; heigth:50px;"></p>
     <p  align="center"><a href="javascript:window.open('http://www.itoaxaca.edu.mx/',);void 0" style="color:black">www.itoaxaca.edu.mx</a></p>
+    <p align="center" style="font-size:12px">congresoxxsmh@gmail.com</p>
     </div>
     <div class="col-sm-1">
     </div>
@@ -186,6 +188,7 @@
 </footer>
 <!-- Footer -->
 <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm-->
+
 
  <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
